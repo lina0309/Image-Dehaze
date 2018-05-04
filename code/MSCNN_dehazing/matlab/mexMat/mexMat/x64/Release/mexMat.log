@@ -1,0 +1,9 @@
+﻿Build started 2014/10/9 22:51:01.
+     1>Project "D:\matconvnet-1.0-beta7\matlab\mexMat\mexMat\mexMat.vcxproj" on node 2 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Release\vl_imreadjpeg.lastbuildstate".
+     1>Done Building Project "D:\matconvnet-1.0-beta7\matlab\mexMat\mexMat\mexMat.vcxproj" (clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.05

@@ -1,0 +1,54 @@
+﻿Build started 2014/10/9 22:36:26.
+     1>Project "D:\matconvnet-1.0-beta7\matlab\mexMat\mexMat\mexMat.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\matconvnet-1.0-beta7\matlab\mexMat\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\vl_nnconv.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\vl_nnconv.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\vl_nnconv.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bits\im2col.cpp bits\normalize.cpp bits\pooling.cpp bits\subsample.cpp mexMat.cpp vl_nnconv.cpp
+         vl_nnconv.cpp
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\mexutils.h(17): fatal error C1083: Cannot open include file: 'mex.h': No such file or directory
+         mexMat.cpp
+         subsample.cpp
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\subsample.cpp(43): warning C4018: '<' : signed/unsigned mismatch
+                 d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\subsample.cpp(71) : see reference to function template instantiation 'void subsample_cpu<float>(float *,const float *,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t)' being compiled
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\subsample.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\subsample.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\subsample.cpp(43): warning C4018: '<' : signed/unsigned mismatch
+                 d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\subsample.cpp(84) : see reference to function template instantiation 'void subsample_cpu<double>(double *,const double *,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t)' being compiled
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\subsample.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\subsample.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\subsample.cpp(109): warning C4018: '<' : signed/unsigned mismatch
+                 d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\subsample.cpp(135) : see reference to function template instantiation 'void subsampleBackward_cpu<float>(float *,const float *,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t)' being compiled
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\subsample.cpp(114): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\subsample.cpp(114): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\subsample.cpp(109): warning C4018: '<' : signed/unsigned mismatch
+                 d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\subsample.cpp(148) : see reference to function template instantiation 'void subsampleBackward_cpu<double>(double *,const double *,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t)' being compiled
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\subsample.cpp(114): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\subsample.cpp(114): warning C4018: '<' : signed/unsigned mismatch
+         pooling.cpp
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\pooling.cpp(47): warning C4018: '<' : signed/unsigned mismatch
+                 d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\pooling.cpp(114) : see reference to function template instantiation 'void pooling_cpu<float>(float *,const float *,PoolMethod,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t)' being compiled
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\pooling.cpp(70): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\pooling.cpp(80): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\pooling.cpp(47): warning C4018: '<' : signed/unsigned mismatch
+                 d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\pooling.cpp(130) : see reference to function template instantiation 'void pooling_cpu<double>(double *,const double *,PoolMethod,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t)' being compiled
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\pooling.cpp(70): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\pooling.cpp(163): warning C4018: '<' : signed/unsigned mismatch
+                 d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\pooling.cpp(235) : see reference to function template instantiation 'void poolingBackward_cpu<float>(float *,const float *,const float *,PoolMethod,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t)' being compiled
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\pooling.cpp(193): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\pooling.cpp(202): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\pooling.cpp(163): warning C4018: '<' : signed/unsigned mismatch
+                 d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\pooling.cpp(252) : see reference to function template instantiation 'void poolingBackward_cpu<double>(double *,const double *,const double *,PoolMethod,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t,size_t)' being compiled
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\pooling.cpp(193): warning C4018: '<' : signed/unsigned mismatch
+         normalize.cpp
+     1>d:\matconvnet-1.0-beta7\matlab\mexmat\mexmat\bits\normalize.cpp(17): fatal error C1083: Cannot open include file: 'blas.h': No such file or directory
+         im2col.cpp
+         Generating Code...
+     1>Done Building Project "D:\matconvnet-1.0-beta7\matlab\mexMat\mexMat\mexMat.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.96
